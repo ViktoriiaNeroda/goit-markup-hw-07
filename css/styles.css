@@ -82,7 +82,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 408px;
-    height: 576px;
+    height: 580px;
     padding-top: 72px;
     background-color: #FCFCFC;
     border-radius: 4px;
@@ -194,7 +194,7 @@ img {
 }
 
 .modal-form-field-com {
-    margin-bottom: 16px;
+    margin-bottom: 6px;
 }
 
 .modal-form-message {
@@ -244,14 +244,19 @@ img {
     border: 1.25px solid #2E2F42;
     border-radius: 2px;
     margin-right: 8px;
-
+    cursor: pointer;
 }
 
 .input-checkbox:checked+.check-text::before {
     background-color: var(--focus-btn-color);
-    background-image: url(../images/check\ .svg);
+    background-image: url(../images/select-icon.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 63%;
+    padding: 4px 3px 4px 3px;
+    outline: none;
+    border: 1px solid #404BBF;
+    cursor: pointer;
 }
 
 .input-checkbox:focus+.check-text::before {

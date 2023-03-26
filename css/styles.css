@@ -1011,7 +1011,7 @@ img {
     flex-wrap: wrap;
 }
 .visually-hidden {
-    display: none;
+    visibility: hidden;
 }
 .cards-row-img {
     position: relative;

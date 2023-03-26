@@ -26,10 +26,7 @@
     .header-tel {
         margin-top: 6px;
         margin-bottom: 6px;
-
     }
-
-
 
     .hero {
         background-image: var(--linear-gradient),
@@ -91,19 +88,28 @@
         .foot-container, .footer-social {
             display: flex;
             flex-wrap: wrap;
-            align-items: flex-start;
-        
+            align-items: flex-start
         }
+
         .footer-logo {
             margin: 0;
             align-items: flex-start;
         }
+
         .footer-pre-title (
             font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
         )
+
+         .forma {
+        flex-direction: row;
+    }
+    .footer-form {
+        align-items: flex-start;
+    }    
+    }
      
        
 
@@ -115,5 +121,4 @@
     .work {
         display: none;
     }
-
 }

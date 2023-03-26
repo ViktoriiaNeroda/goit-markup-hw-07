@@ -1,0 +1,60 @@
+@media screen and (min-width: 325px) {
+
+    /* .work {
+        display: none;
+    } */
+    .mob-soc-list {
+        gap: 56px;
+    }
+
+    .mobile-tel-link {
+        display: block;
+    }
+
+    .container-mobile {
+        padding-right: 35px;
+    }
+
+    .mobile-tel-link {
+        font-size: 36px;
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 426px;
+    }
+
+    .hero-title {
+        max-width: 320px;
+        font-size: 36px;
+        letter-spacing: 0.02em;
+        text-transform: capitalize
+    }
+
+    .mob-soc-list {
+        gap: 56px;
+    }
+
+    .mobile-tel-link {
+        display: block;
+    }
+
+    .container-mobile {
+        padding-right: 35px;
+    }
+
+    .mobile-tel-link {
+        font-size: 36px;
+    }
+
+    /* .container-about {
+        display: none;
+    } */
+    /* .work {
+        display: none;
+    } */
+
+
+}

@@ -818,6 +818,7 @@ img {
     background-color: var(--second-title-color);
     padding-top: 96px;
     padding-bottom: 96px;
+    width: 100%;
 }
 
 .footer-link {
@@ -829,7 +830,6 @@ img {
     letter-spacing: 0.03em;
     color: var(--mein-title-color);
     text-transform: uppercase;
-
 }
 
 .footer-logo {
@@ -855,17 +855,10 @@ img {
     letter-spacing: 0.02em;
     color: var(--third-title-color);
     max-width: 268px;
-
-
-}
-
-.foot-container {
-    /* display: flex; */
 }
 
 .foot-logo {
     width: 264px;
-
 }
 
 
@@ -885,7 +878,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-
 }
 
 .footer-soc {
@@ -905,7 +897,6 @@ img {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    /* background-color: rgba(255, 255, 255, 0.1); */
     background-color: var(--mein-btn-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -935,7 +926,9 @@ img {
 
 .forma {
     display: flex;
+    flex-direction: column;
     gap: 24px;
+    justify-content: center;
 }
 
 .footer-email {
@@ -963,7 +956,10 @@ img {
     border: none;
     position: relative;
 }
-
+.footer-form-imput {
+    display: flex;
+    justify-content: center;
+}
 .footer-submit-svg {
     position: absolute;
     top: 10px;

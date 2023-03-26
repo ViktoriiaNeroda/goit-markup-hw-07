@@ -88,7 +88,24 @@
         width: calc((100% - 48px) / 3);
 
     }
-}
+        .foot-container, .footer-social {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        
+        }
+        .footer-logo {
+            margin: 0;
+            align-items: flex-start;
+        }
+        .footer-pre-title (
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+        )
+     
+       
 
 @media screen and (max-width: 1157px) {
     .container-about {
@@ -98,4 +115,5 @@
     .work {
         display: none;
     }
+
 }

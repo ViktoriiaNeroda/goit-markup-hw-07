@@ -11,7 +11,7 @@
 
     .hero {
         background-image: var(--linear-gradient),
-            url(../images/people-officee.jpg);
+            url(../images/hero/background-hero-main-img.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -25,7 +25,7 @@
     (min-resolution: 2dppx) {
         .hero {
             background-image: var(--linear-gradient),
-                url(../images/people-office2x-min.jpg);
+                url(../images/hero/background-hero-main-img.jpg);
         }
     }
 

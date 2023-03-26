@@ -560,7 +560,7 @@ img {
 .hero {
     background-color: var(--second-title-color);
     background-image: var(--linear-gradient),
-        url(../images/fon-mob-min.jpg);
+        url(../images/hero/mob-background-hero-main-img1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -576,7 +576,7 @@ img {
 (min-resolution: 2dppx) {
     .hero {
         background-image: var(--linear-gradient),
-            url(../images/fon-mob2x-min.jpg);
+            url(../images/hero/mob-background-hero-main-img1.jpg);
     }
 }
 
@@ -1010,7 +1010,9 @@ img {
     height: auto;
     flex-wrap: wrap;
 }
-
+.visually-hidden {
+    display: none;
+}
 .cards-row-img {
     position: relative;
     overflow: hidden;

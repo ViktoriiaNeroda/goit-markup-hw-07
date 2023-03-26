@@ -1,0 +1,88 @@
+@media screen and (min-width: 1200px) {
+
+    .adress-heder {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .container {
+        max-width: 1158px;
+    }
+
+    .hero {
+        background-image: var(--linear-gradient),
+            url(../images/people-officee.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 188px;
+        padding-bottom: 188px;
+        height: 600px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: var(--linear-gradient),
+                url(../images/people-office2x-min.jpg);
+        }
+    }
+
+    .hero-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        max-height: 120px;
+        color: var(--mein-title-color);
+        max-width: 500px;
+        margin: 0 auto;
+        margin-bottom: 48px;
+    }
+
+    .container-about {
+        padding: 24px 100px;
+        background-color: var(--second-btn-color);
+        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
+    .about-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .about-pre-title {
+        font-weight: 400;
+    }
+
+    .about-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .team>.container {
+        max-width: 1158px;
+    }
+
+    .team-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .team {
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
+
+    .customers-item {
+        width: calc((100% - 120px) / 6);
+        height: 88px;
+    }
+
+    .Customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+}

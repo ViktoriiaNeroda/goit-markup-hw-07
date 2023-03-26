@@ -1,0 +1,101 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 736px;
+    }
+
+    .header-list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .mobile-menu-open {
+        display: none;
+    }
+
+    .adress-heder {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.04em;
+    }
+
+    .header-tel {
+        margin-top: 6px;
+        margin-bottom: 6px;
+
+    }
+
+
+
+    .hero {
+        background-image: var(--linear-gradient),
+            url(../images/fon-tablet-min.jpg);
+        height: 436px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: var(--linear-gradient),
+                url(../images/fon-tablet2x-min.jpg);
+        }
+    }
+
+    .hero-btn {
+        margin-top: 48px;
+    }
+
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        text-transform: none;
+        max-width: 496px;
+        max-height: 120px;
+    }
+
+    /* .container-about {
+        display: none;
+    } */
+    .about-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .about-title {
+        text-transform: capitalize;
+        text-align: left;
+    }
+
+
+    /* .work {
+        display: none;
+    } */
+
+    .team>.container {
+        max-width: 552px;
+    }
+
+    .team-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .customers-item {
+        width: calc((100% - 48px) / 3);
+
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .container-about {
+        display: none;
+    }
+
+    .work {
+        display: none;
+    }
+}

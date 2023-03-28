@@ -1,4 +1,6 @@
-@media screen and (min-width: 768px) {
+
+
+    @media screen and (min-width: 768px) {
     .container {
         max-width: 736px;
     }
@@ -28,13 +30,15 @@
         margin-bottom: 6px;
     }
 
-
     .hero {
+
         background-image: var(--linear-gradient),
             url(../images/hero/bg-tablet.jpg);
         height: 436px;
-        max-width: 768px;
-    }
+        min-width: 429px;
+        background-size: cover;
+    
+        }
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -70,25 +74,24 @@
         text-transform: capitalize;
         text-align: left;
     }
+        .about-list {
+            column-gap: 24px;
+        }
 
 
     /* .work {
         display: none;
     } */
 
-    .team.container {
-       width: 264px;
-    }
-
-    .team-item {
-        width: calc((100% - 72px) / 2);
-    }
-        .team-list {
+    
+            .team-list {
+            
             display: flex;
             flex-wrap: wrap;
-            row-gap: 72px;
+            row-gap: 64px;
             column-gap: 24px;
             justify-content: center;
+    
         }
     
        
@@ -124,9 +127,10 @@
             line-height: 1.5;
             letter-spacing: 0.02em;
         )
-        
-         
-      
+                .modal {
+                    width: 408px;
+                }
+
     }
      
        

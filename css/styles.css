@@ -393,9 +393,6 @@ img {
     color: #2E2F42;
 }
 
-
-.currrent {}
-
 .mobile-tel-link {
     font-family: 'Roboto';
     font-style: normal;
@@ -571,7 +568,7 @@ img {
     background-size: cover;
     padding-top: 112px;
     padding-bottom: 112px;
-    max-width: 1440px;
+    max-width: 428px;
     height: 432px;
     margin: 0 auto;
 }
@@ -581,7 +578,7 @@ img {
 (min-resolution: 2dppx) {
     .hero {
         background-image: var(--linear-gradient),
-            url(../images/hero/mob-background-hero-main-img1.jpg);
+            url(../images/hero/mob-background-hero-main-img@2x.jpg);
     }
 }
 
@@ -609,7 +606,7 @@ img {
 .about-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px;
 }
 
 
@@ -679,8 +676,8 @@ img {
     padding-top: 96px;
 }
 
-.team>.container {
-    max-width: 264px;
+.team.container {
+    width: 264px;
 }
 
 .team-title {
@@ -695,8 +692,9 @@ img {
 
 .team-list {
     display: flex;
+     justify-content: center;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px;
 }
 
 

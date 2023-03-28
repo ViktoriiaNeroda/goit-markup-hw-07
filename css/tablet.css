@@ -33,6 +33,7 @@
         background-image: var(--linear-gradient),
             url(../images/hero/bg-tablet.jpg);
         height: 436px;
+        max-width: 768px;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -40,13 +41,13 @@
     (min-resolution: 2dppx) {
         .hero {
             background-image: var(--linear-gradient),
-                url(../images/hero/bg-tablet.jpg);
+                url(../images/hero/tablet-bg@2x.jpg);
         }
     }
 
-    .hero-btn {
-        margin-top: 48px;
-    }
+    /* .hero-btn {
+        margin-top: 36px;
+    } */
 
 
     .hero-title {
@@ -55,13 +56,14 @@
         text-transform: none;
         max-width: 496px;
         max-height: 120px;
+        margin-bottom: 36px;
     }
 
     /* .container-about {
         display: none;
     } */
     .about-item {
-        width: calc((100% - 24px) / 2);
+        width: calc((100% - 72px) / 2);
     }
 
     .about-title {
@@ -74,18 +76,30 @@
         display: none;
     } */
 
-    .team>.container {
-        max-width: 552px;
+    .team.container {
+       width: 264px;
     }
 
     .team-item {
-        width: calc((100% - 24px) / 2);
+        width: calc((100% - 72px) / 2);
     }
+        .team-list {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 72px;
+            column-gap: 24px;
+            justify-content: center;
+        }
+    
+       
 
     .customers-item {
         width: calc((100% - 48px) / 3);
 
     }
+        .customers-list {
+           row-gap: 72px; 
+        }
         .foot-container, .footer-social {
             display: flex;
             flex-wrap: wrap;
@@ -98,6 +112,7 @@
         }
         .forma {
         flex-direction: row;
+        gap: 72px;
     }
          .footer-form {
              align-items: flex-start;
